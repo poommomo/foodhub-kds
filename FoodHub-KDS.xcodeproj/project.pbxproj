@@ -3,17 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D7C4BEF22CEA54B03A66D04 /* Pods_FoodHub_KDSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1969F8295CAC1696F51D0FE /* Pods_FoodHub_KDSTests.framework */; };
+		CE9E4B012D88087A93126FC1 /* Pods_FoodHub_KDS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48463AA2E09127865B65E79E /* Pods_FoodHub_KDS.framework */; };
+		FA1FF2BB238C4D7C00CDAD74 /* AppSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1FF2BA238C4D7C00CDAD74 /* AppSetup.swift */; };
+		FA1FF2C0238C4ED400CDAD74 /* OrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1FF2BE238C4ED400CDAD74 /* OrderCell.swift */; };
+		FA1FF2C1238C4ED400CDAD74 /* OrderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA1FF2BF238C4ED400CDAD74 /* OrderCell.xib */; };
+		FA1FF2C4238C516800CDAD74 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1FF2C2238C516800CDAD74 /* MenuCell.swift */; };
+		FA1FF2C5238C516800CDAD74 /* MenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA1FF2C3238C516800CDAD74 /* MenuCell.xib */; };
+		FA1FF2C8238C55CC00CDAD74 /* MenuResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1FF2C7238C55CC00CDAD74 /* MenuResponse.swift */; };
+		FA1FF2CA238C567300CDAD74 /* OrderResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1FF2C9238C567300CDAD74 /* OrderResponse.swift */; };
+		FA4C1C4A23B10639004AACF5 /* StatusResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C1C4923B10639004AACF5 /* StatusResponse.swift */; };
+		FA4C1C4D23B125A1004AACF5 /* PreviousOrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C1C4C23B125A1004AACF5 /* PreviousOrdersViewController.swift */; };
+		FA4C1C5423B12D58004AACF5 /* PreviousOrderHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4C1C5323B12D58004AACF5 /* PreviousOrderHeaderView.swift */; };
+		FA4C1C5623B12D5F004AACF5 /* PreviousOrderHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA4C1C5523B12D5F004AACF5 /* PreviousOrderHeaderView.xib */; };
 		FA51F27B2388EC8000F5AC52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA51F27A2388EC8000F5AC52 /* AppDelegate.swift */; };
 		FA51F27D2388EC8000F5AC52 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA51F27C2388EC8000F5AC52 /* SceneDelegate.swift */; };
-		FA51F27F2388EC8000F5AC52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA51F27E2388EC8000F5AC52 /* ViewController.swift */; };
+		FA51F27F2388EC8000F5AC52 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA51F27E2388EC8000F5AC52 /* HomeViewController.swift */; };
 		FA51F2822388EC8000F5AC52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA51F2802388EC8000F5AC52 /* Main.storyboard */; };
 		FA51F2842388EC8300F5AC52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA51F2832388EC8300F5AC52 /* Assets.xcassets */; };
 		FA51F2872388EC8300F5AC52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA51F2852388EC8300F5AC52 /* LaunchScreen.storyboard */; };
 		FA51F2922388EC8300F5AC52 /* FoodHub_KDSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA51F2912388EC8300F5AC52 /* FoodHub_KDSTests.swift */; };
+		FA6AA60223AFD3EF00448D61 /* LocationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6AA60123AFD3EF00448D61 /* LocationResponse.swift */; };
+		FA6AA60423AFDD0C00448D61 /* TypeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6AA60323AFDD0C00448D61 /* TypeExtension.swift */; };
+		FA7F905123935AD200CCC4C1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA7F905023935AD200CCC4C1 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,10 +43,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		48463AA2E09127865B65E79E /* Pods_FoodHub_KDS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodHub_KDS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60AAB3485F23D18B7BDDE058 /* Pods-FoodHub-KDS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodHub-KDS.release.xcconfig"; path = "Target Support Files/Pods-FoodHub-KDS/Pods-FoodHub-KDS.release.xcconfig"; sourceTree = "<group>"; };
+		8543FDF9A1133BD47850127D /* Pods-FoodHub-KDSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodHub-KDSTests.release.xcconfig"; path = "Target Support Files/Pods-FoodHub-KDSTests/Pods-FoodHub-KDSTests.release.xcconfig"; sourceTree = "<group>"; };
+		A651AD3EA37CDAA98BB1EADB /* Pods-FoodHub-KDS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodHub-KDS.debug.xcconfig"; path = "Target Support Files/Pods-FoodHub-KDS/Pods-FoodHub-KDS.debug.xcconfig"; sourceTree = "<group>"; };
+		AED5D57A95494D428098B882 /* Pods-FoodHub-KDSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodHub-KDSTests.debug.xcconfig"; path = "Target Support Files/Pods-FoodHub-KDSTests/Pods-FoodHub-KDSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E1969F8295CAC1696F51D0FE /* Pods_FoodHub_KDSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodHub_KDSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA1FF2BA238C4D7C00CDAD74 /* AppSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSetup.swift; sourceTree = "<group>"; };
+		FA1FF2BE238C4ED400CDAD74 /* OrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCell.swift; sourceTree = "<group>"; };
+		FA1FF2BF238C4ED400CDAD74 /* OrderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrderCell.xib; sourceTree = "<group>"; };
+		FA1FF2C2238C516800CDAD74 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		FA1FF2C3238C516800CDAD74 /* MenuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuCell.xib; sourceTree = "<group>"; };
+		FA1FF2C7238C55CC00CDAD74 /* MenuResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuResponse.swift; sourceTree = "<group>"; };
+		FA1FF2C9238C567300CDAD74 /* OrderResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderResponse.swift; sourceTree = "<group>"; };
+		FA4C1C4923B10639004AACF5 /* StatusResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusResponse.swift; sourceTree = "<group>"; };
+		FA4C1C4C23B125A1004AACF5 /* PreviousOrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviousOrdersViewController.swift; sourceTree = "<group>"; };
+		FA4C1C5323B12D58004AACF5 /* PreviousOrderHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviousOrderHeaderView.swift; sourceTree = "<group>"; };
+		FA4C1C5523B12D5F004AACF5 /* PreviousOrderHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PreviousOrderHeaderView.xib; sourceTree = "<group>"; };
 		FA51F2772388EC8000F5AC52 /* FoodHub-KDS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FoodHub-KDS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA51F27A2388EC8000F5AC52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA51F27C2388EC8000F5AC52 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FA51F27E2388EC8000F5AC52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA51F27E2388EC8000F5AC52 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		FA51F2812388EC8000F5AC52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA51F2832388EC8300F5AC52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA51F2862388EC8300F5AC52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +71,9 @@
 		FA51F28D2388EC8300F5AC52 /* FoodHub-KDSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FoodHub-KDSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA51F2912388EC8300F5AC52 /* FoodHub_KDSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodHub_KDSTests.swift; sourceTree = "<group>"; };
 		FA51F2932388EC8300F5AC52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA6AA60123AFD3EF00448D61 /* LocationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationResponse.swift; sourceTree = "<group>"; };
+		FA6AA60323AFDD0C00448D61 /* TypeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeExtension.swift; sourceTree = "<group>"; };
+		FA7F905023935AD200CCC4C1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE9E4B012D88087A93126FC1 /* Pods_FoodHub_KDS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +89,90 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D7C4BEF22CEA54B03A66D04 /* Pods_FoodHub_KDSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0ACDCEFC5008367EF8E73364 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A651AD3EA37CDAA98BB1EADB /* Pods-FoodHub-KDS.debug.xcconfig */,
+				60AAB3485F23D18B7BDDE058 /* Pods-FoodHub-KDS.release.xcconfig */,
+				AED5D57A95494D428098B882 /* Pods-FoodHub-KDSTests.debug.xcconfig */,
+				8543FDF9A1133BD47850127D /* Pods-FoodHub-KDSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9E61A0526629A1420D499BF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48463AA2E09127865B65E79E /* Pods_FoodHub_KDS.framework */,
+				E1969F8295CAC1696F51D0FE /* Pods_FoodHub_KDSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA1FF2BC238C4E5300CDAD74 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				FA1FF2BD238C4EBA00CDAD74 /* UI */,
+				FA51F27E2388EC8000F5AC52 /* HomeViewController.swift */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		FA1FF2BD238C4EBA00CDAD74 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				FA1FF2BE238C4ED400CDAD74 /* OrderCell.swift */,
+				FA1FF2BF238C4ED400CDAD74 /* OrderCell.xib */,
+				FA1FF2C2238C516800CDAD74 /* MenuCell.swift */,
+				FA1FF2C3238C516800CDAD74 /* MenuCell.xib */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		FA1FF2C6238C55AB00CDAD74 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA1FF2C7238C55CC00CDAD74 /* MenuResponse.swift */,
+				FA1FF2C9238C567300CDAD74 /* OrderResponse.swift */,
+				FA6AA60123AFD3EF00448D61 /* LocationResponse.swift */,
+				FA4C1C4923B10639004AACF5 /* StatusResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA4C1C4B23B12581004AACF5 /* PreviousOrderScreen */ = {
+			isa = PBXGroup;
+			children = (
+				FA4C1C4E23B1275D004AACF5 /* UI */,
+				FA4C1C4C23B125A1004AACF5 /* PreviousOrdersViewController.swift */,
+			);
+			path = PreviousOrderScreen;
+			sourceTree = "<group>";
+		};
+		FA4C1C4E23B1275D004AACF5 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				FA4C1C5323B12D58004AACF5 /* PreviousOrderHeaderView.swift */,
+				FA4C1C5523B12D5F004AACF5 /* PreviousOrderHeaderView.xib */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
 		FA51F26E2388EC8000F5AC52 = {
 			isa = PBXGroup;
 			children = (
 				FA51F2792388EC8000F5AC52 /* FoodHub-KDS */,
 				FA51F2902388EC8300F5AC52 /* FoodHub-KDSTests */,
 				FA51F2782388EC8000F5AC52 /* Products */,
+				0ACDCEFC5008367EF8E73364 /* Pods */,
+				9E61A0526629A1420D499BF7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,13 +188,18 @@
 		FA51F2792388EC8000F5AC52 /* FoodHub-KDS */ = {
 			isa = PBXGroup;
 			children = (
+				FA4C1C4B23B12581004AACF5 /* PreviousOrderScreen */,
+				FA1FF2C6238C55AB00CDAD74 /* Model */,
+				FA1FF2BC238C4E5300CDAD74 /* HomeScreen */,
 				FA51F27A2388EC8000F5AC52 /* AppDelegate.swift */,
+				FA1FF2BA238C4D7C00CDAD74 /* AppSetup.swift */,
 				FA51F27C2388EC8000F5AC52 /* SceneDelegate.swift */,
-				FA51F27E2388EC8000F5AC52 /* ViewController.swift */,
 				FA51F2802388EC8000F5AC52 /* Main.storyboard */,
 				FA51F2832388EC8300F5AC52 /* Assets.xcassets */,
 				FA51F2852388EC8300F5AC52 /* LaunchScreen.storyboard */,
 				FA51F2882388EC8300F5AC52 /* Info.plist */,
+				FA7F905023935AD200CCC4C1 /* GoogleService-Info.plist */,
+				FA6AA60323AFDD0C00448D61 /* TypeExtension.swift */,
 			);
 			path = "FoodHub-KDS";
 			sourceTree = "<group>";
@@ -106,9 +220,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA51F2962388EC8300F5AC52 /* Build configuration list for PBXNativeTarget "FoodHub-KDS" */;
 			buildPhases = (
+				7284162F67C4D60FE05D6C5E /* [CP] Check Pods Manifest.lock */,
 				FA51F2732388EC8000F5AC52 /* Sources */,
 				FA51F2742388EC8000F5AC52 /* Frameworks */,
 				FA51F2752388EC8000F5AC52 /* Resources */,
+				9B4831E8EF483126EA6071B2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +239,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA51F2992388EC8300F5AC52 /* Build configuration list for PBXNativeTarget "FoodHub-KDSTests" */;
 			buildPhases = (
+				038B56BCF0ED59A9C872223E /* [CP] Check Pods Manifest.lock */,
 				FA51F2892388EC8300F5AC52 /* Sources */,
 				FA51F28A2388EC8300F5AC52 /* Frameworks */,
 				FA51F28B2388EC8300F5AC52 /* Resources */,
@@ -181,8 +298,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA51F2872388EC8300F5AC52 /* LaunchScreen.storyboard in Resources */,
+				FA4C1C5623B12D5F004AACF5 /* PreviousOrderHeaderView.xib in Resources */,
 				FA51F2842388EC8300F5AC52 /* Assets.xcassets in Resources */,
+				FA1FF2C5238C516800CDAD74 /* MenuCell.xib in Resources */,
+				FA1FF2C1238C4ED400CDAD74 /* OrderCell.xib in Resources */,
 				FA51F2822388EC8000F5AC52 /* Main.storyboard in Resources */,
+				FA7F905123935AD200CCC4C1 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,14 +316,88 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		038B56BCF0ED59A9C872223E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodHub-KDSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7284162F67C4D60FE05D6C5E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodHub-KDS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B4831E8EF483126EA6071B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodHub-KDS/Pods-FoodHub-KDS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodHub-KDS/Pods-FoodHub-KDS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FoodHub-KDS/Pods-FoodHub-KDS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FA51F2732388EC8000F5AC52 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA51F27F2388EC8000F5AC52 /* ViewController.swift in Sources */,
+				FA4C1C4A23B10639004AACF5 /* StatusResponse.swift in Sources */,
+				FA51F27F2388EC8000F5AC52 /* HomeViewController.swift in Sources */,
 				FA51F27B2388EC8000F5AC52 /* AppDelegate.swift in Sources */,
+				FA1FF2CA238C567300CDAD74 /* OrderResponse.swift in Sources */,
+				FA4C1C4D23B125A1004AACF5 /* PreviousOrdersViewController.swift in Sources */,
+				FA1FF2C8238C55CC00CDAD74 /* MenuResponse.swift in Sources */,
+				FA1FF2C4238C516800CDAD74 /* MenuCell.swift in Sources */,
+				FA6AA60223AFD3EF00448D61 /* LocationResponse.swift in Sources */,
+				FA1FF2C0238C4ED400CDAD74 /* OrderCell.swift in Sources */,
+				FA6AA60423AFDD0C00448D61 /* TypeExtension.swift in Sources */,
 				FA51F27D2388EC8000F5AC52 /* SceneDelegate.swift in Sources */,
+				FA4C1C5423B12D58004AACF5 /* PreviousOrderHeaderView.swift in Sources */,
+				FA1FF2BB238C4D7C00CDAD74 /* AppSetup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +555,7 @@
 		};
 		FA51F2972388EC8300F5AC52 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A651AD3EA37CDAA98BB1EADB /* Pods-FoodHub-KDS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -372,12 +568,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.au.u5913873.FoodHub-KDS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
 		FA51F2982388EC8300F5AC52 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60AAB3485F23D18B7BDDE058 /* Pods-FoodHub-KDS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -390,12 +587,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.au.u5913873.FoodHub-KDS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
 		FA51F29A2388EC8300F5AC52 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AED5D57A95494D428098B882 /* Pods-FoodHub-KDSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -418,6 +616,7 @@
 		};
 		FA51F29B2388EC8300F5AC52 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8543FDF9A1133BD47850127D /* Pods-FoodHub-KDSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
